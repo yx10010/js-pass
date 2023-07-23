@@ -8,6 +8,8 @@
   "license": "MIT",
   "private": false,
   "scripts": {
+    "test": "mocha tests/unit/",
+    "dev": "nodemon server.js"
     "start": "node server.js"
   },
   "dependencies": {
